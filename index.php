@@ -50,7 +50,7 @@
                 <a class="nav-link" href="#program">Program</a>
               </li>
               <li class="nav-item">
-                <a class="btn btn-info" href="#login">Login</a>
+                <a class="btn btn-info" href="login.php">Login</a>
               </li>
             </ul>
           </div>
