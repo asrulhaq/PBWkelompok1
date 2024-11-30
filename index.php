@@ -223,7 +223,7 @@
                   Bootcamp Front-end yang mengajarkan HTML, CSS, JavaScript,
                   untuk menciptakan website responsif yang menarik secara visual
                 </p>
-                <a href="#" class="btn more-btn">Dapatkan Materi</a>
+                <a href="assets/pages/fe/landing.php" class="btn more-btn">Dapatkan Materi</a>
               </div>
             </div>
           </div>
@@ -242,7 +242,7 @@
                   API untuk membangun sistem web yang kuat dan terstruktur.
                 </p>
 
-                <a href="#" class="btn more-btn">Dapatkan Materi</a>
+                <a href="assets/pages/be/landing.php" class="btn more-btn">Dapatkan Materi</a>
               </div>
             </div>
 
