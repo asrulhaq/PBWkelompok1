@@ -92,3 +92,12 @@ h1 {
   outline: none; /* Hilangkan border biru bawaan */
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Tambahkan efek bayangan */
 }
+
+.error-message {
+  color: red;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border: 1px solid red;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}

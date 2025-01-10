@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -49,13 +54,33 @@
               <li class="nav-item">
                 <a class="nav-link" href="#program">Program</a>
               </li>
-              <li class="nav-item">
-                <a class="btn btn-info" href="login.php">Login</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+              <?php if (isset($_SESSION['username'])): ?>
+                            <!-- Jika sudah login -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    <?= htmlspecialchars($_SESSION['username']); ?>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#">Profil</a></li>
+                                    <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+                                </ul>
+                            </li>
+                        <?php else: ?>
+                            <!-- Jika belum login -->
+                            <li class="nav-item">
+                                <a class="btn btn-info" href="login.php">Login</a>
+                            </li>
+                        <?php endif; ?>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="main">
