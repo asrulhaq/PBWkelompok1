@@ -45,7 +45,7 @@ session_start();
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#hero"
-                  >Beranda masuk</a
+                  >Beranda masuk Lagi nih</a
                 >
               </li>
               <li class="nav-item">
