@@ -74,7 +74,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Pengenalan HTML & CSS</h5>
                             <p class="card-text">Belajar ilmu dasar pengembangan halaman web. Pelajaran ini melingkupi dasar-dasar HTML (struktur dokumen, tag dan elemen), dasar-dasar CSS (selector, property dan nilai (value)), serta bagaimana mengkombinasikan HTML dan CSS untuk membuat halaman web yang menarik.</p>
-                            <a href="#" class="btn btn-success" >Memulai Materi</a>
+                            <a href="html-css.php" class="btn btn-success" >Memulai Materi</a>
                         </div>
             </div>
             <div class="card mt-4">

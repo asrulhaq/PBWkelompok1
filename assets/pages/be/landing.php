@@ -74,7 +74,7 @@
             <p class="card-text">
                 Belajar bagaimana server bekerja, memahami konsep dasar server-side scripting, serta membangun server sederhana menggunakan Node.js.
             </p>
-            <a href="#" class="btn btn-success">Memulai Materi</a>
+            <a href="pengenalan.php" class="btn btn-success">Memulai Materi</a>
         </div>
     </div>
 
